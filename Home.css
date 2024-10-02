@@ -1,0 +1,91 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .home h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .newsletter {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 600px;
+    background-color: #437b7e;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .newsletter h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .newsletter input {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .newsletter button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter button:hover {
+    background-color: #777;
+  }
+  
+  .newsletter p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .home h1 {
+      font-size: 28px;
+    }
+  
+    .newsletter {
+      padding: 15px;
+    }
+  
+    .newsletter input {
+      width: 200px;
+      font-size: 14px;
+    }
+  
+    .newsletter button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
+  
